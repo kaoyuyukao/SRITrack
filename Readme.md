@@ -280,7 +280,7 @@ chmod +x run_setting.sh
 
 ---
 
-## 7. Output
+## 8. Output
 
 After running, results will be saved automatically:
 
@@ -316,6 +316,7 @@ save_image: False
 * Use absolute paths in DIRS_TXT for stability
 * Ensure weights paths are correct before running
 * `public_tracking=True` will ignore detector weights
+
 
 
 
