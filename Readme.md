@@ -307,7 +307,7 @@ save_image: False
 | with_reid       | True              | Identity consistency     |
 | vp_dga          | True              | Visual-priority matching |
 | ris             | True              | Boundary filtering       |
-| public_tracking | True (benchmark)  | Fair evaluation          |
+| public_tracking | False (benchmark)  | Fair evaluation          |
 
 ---
 
@@ -316,6 +316,7 @@ save_image: False
 * Use absolute paths in DIRS_TXT for stability
 * Ensure weights paths are correct before running
 * `public_tracking=True` will ignore detector weights
+
 
 
 
