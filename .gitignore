@@ -1,0 +1,25 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Model weights
+checkpoints/
+*.pth
+*.pt
+*.tar
+
+# Results & logs
+Results/
+logs/
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Environment
+.env
+venv/
+conda/

@@ -1,0 +1,40 @@
+# Basic setting
+TRACKER: "MY"
+DIRS_TXT: "./data_path/sportsMOT_test_path.txt"
+BENCHMARK: "SportsMOT"
+public_tracking: False
+save_result: True
+save_image: False
+exp_file: "yolox/yolox_x_ch_sportsmot.py"
+fps: 25
+fp16: False
+device: "cuda"
+
+# ReID
+reid_backbone: "dinov3_vit_b_16" # "vit_b_16"
+reid_ckpt: "./checkpoints/ReID/model.pth.tar-60"
+
+# Detector
+det_name: None
+det_ckpt: "./checkpoints/Detector/yolox_x_sports_mix.pth.tar"
+det_conf: 0.1
+det_nms: 0.7
+det_aspect_ratio: 1.6
+det_min_area: 10
+
+# tracker param
+track_high_th: 0.6
+track_low_th: 0.1 # 0.4
+track_new_th: 0.7
+track_buffer: 1000
+track_match_th: 0.8
+track_p_th: 0.5
+track_vc_th: 0.5
+track_vf_th: 0.25
+track_b_th: 0.7
+
+# tracker setting
+with_reid: True
+EIoU: True
+vp_dga: True
+ris: True
