@@ -1,4 +1,3 @@
-```markdown
 # SRITrack
 
 ---
@@ -309,3 +308,4 @@ save_image: False
 * Use absolute paths in DIRS_TXT for stability
 * Ensure weights paths are correct before running
 * `public_tracking=True` will ignore detector weights
+
