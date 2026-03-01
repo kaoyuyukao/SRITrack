@@ -193,7 +193,7 @@ reid_ckpt: "./checkpoints/ReID/model.pth.tar-60"
 
 ---
 
-## 6. Public Tracking (Very Important)
+## 6. Public Tracking
 
 Your `track.py` uses:
 
@@ -316,6 +316,7 @@ save_image: False
 * Use absolute paths in DIRS_TXT for stability
 * Ensure weights paths are correct before running
 * `public_tracking=True` will ignore detector weights
+
 
 
 
