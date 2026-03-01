@@ -152,7 +152,7 @@ det_ckpt: "./checkpoints/Detector/yolox_x_sports_mix.pth.tar"
 Please download from:
 
 ```
-https://drive.google.com/file/d/12tcJ6h5dQob3qf7OI1fz7-wJ3JZUKCOt/view?usp=sharing
+[https://drive.google.com/file/d/12tcJ6h5dQob3qf7OI1fz7-wJ3JZUKCOt/view?usp=sharing]
 ```
 
 Suggested placement:
@@ -316,6 +316,7 @@ save_image: False
 * Use absolute paths in DIRS_TXT for stability
 * Ensure weights paths are correct before running
 * `public_tracking=True` will ignore detector weights
+
 
 
 
