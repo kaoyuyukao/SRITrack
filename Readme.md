@@ -6,6 +6,8 @@
 
 SRITrack is a multi-object tracking framework designed for sports broadcasting scenarios, where frequent occlusion, dynamic camera motion, and target re-entry are common. The framework focuses on identity continuity under long-term occlusion and re-entry conditions, which are prevalent in sports videos with dynamic viewpoints and player circulation.
 
+Under the online tracking protocol, SRITrack achieves 85.2% HOTA on the SportsMOT benchmark (train+val), highlighting its effectiveness in maintaining identity consistency in sports broadcast scenarios with frequent target re-entry.
+
 This implementation follows a sequence-based inference pipeline using a DIRS file to load image folders and supports both:
 - Private detection (run detector)
 - Public detection (load det.txt)
@@ -311,3 +313,4 @@ save_image: False
 * Use absolute paths in DIRS_TXT for stability
 * Ensure weights paths are correct before running
 * `public_tracking=True` will ignore detector weights
+
