@@ -12,13 +12,16 @@ This implementation follows a sequence-based inference pipeline using a DIRS fil
 
 SRITrack is built upon and inspired by several pioneering works in multi-object tracking and sports tracking. In particular, we sincerely acknowledge the following open-source projects and research contributions that provide important foundations for our implementation and experimental pipeline:
 
-- SportsMOT: https://github.com/MCG-NJU/SportsMOT  
+- <mark><strong>SportsMOT</strong></mark>: https://github.com/MCG-NJU/SportsMOT  
   (Sports-oriented MOT dataset and evaluation protocol)
-- Deep-EIoU: https://github.com/hsiangwei0903/Deep-EIoU  
+
+- <mark><strong>Deep-EIoU</strong></mark>: https://github.com/hsiangwei0903/Deep-EIoU  
   (EIoU-based association and tracking design)
-- BoT-SORT: https://github.com/NirAharon/BoT-SORT  
+
+- <mark><strong>BoT-SORT</strong></mark>: https://github.com/NirAharon/BoT-SORT  
   (Robust ReID-aware tracking framework)
-- ByteTrack: https://github.com/FoundationVision/ByteTrack  
+
+- <mark><strong>ByteTrack</strong></mark>: https://github.com/FoundationVision/ByteTrack  
   (High/low confidence detection association strategy)
 
 We gratefully thank the authors of these works for releasing their code and datasets, which significantly facilitate research on multi-object tracking and sports analytics.
@@ -308,4 +311,5 @@ save_image: False
 * Use absolute paths in DIRS_TXT for stability
 * Ensure weights paths are correct before running
 * `public_tracking=True` will ignore detector weights
+
 
