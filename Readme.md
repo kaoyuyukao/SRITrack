@@ -4,48 +4,25 @@
 
 ## 1. Introduction
 
-<h1 align="center">
-  <span style="color:#d98ca3;">SRITrack</span>
-</h1>
-
----
-
-<h2>
-  <span style="color:#b79edb;">1. Introduction</span>
-</h2>
-
 SRITrack is a multi-object tracking framework designed for sports broadcasting scenarios, where frequent occlusion, dynamic camera motion, and target re-entry are common. The framework focuses on identity continuity under long-term occlusion and re-entry conditions, which are prevalent in sports videos with dynamic viewpoints and player circulation.
 
 This implementation follows a sequence-based inference pipeline using a DIRS file to load image folders and supports both:
 - Private detection (run detector)
 - Public detection (load det.txt)
 
-<p>
-  <span style="color:#c97b9b;">
-    SRITrack is built upon and inspired by several pioneering works in multi-object tracking and sports tracking. 
-    We sincerely acknowledge the following open-source projects and research contributions that provide important 
-    foundations for our implementation and experimental pipeline:
-  </span>
-</p>
+SRITrack is built upon and inspired by several pioneering works in multi-object tracking and sports tracking. In particular, we sincerely acknowledge the following open-source projects and research contributions that provide important foundations for our implementation and experimental pipeline:
 
 - <mark><strong>SportsMOT</strong></mark>: https://github.com/MCG-NJU/SportsMOT  
-  <span style="color:#a889c9;">(Sports-oriented MOT dataset and evaluation protocol)</span>
+  (Sports-oriented MOT dataset and evaluation protocol)
 
 - <mark><strong>Deep-EIoU</strong></mark>: https://github.com/hsiangwei0903/Deep-EIoU  
-  <span style="color:#a889c9;">(EIoU-based association and tracking design)</span>
+  (EIoU-based association and tracking design)
 
 - <mark><strong>BoT-SORT</strong></mark>: https://github.com/NirAharon/BoT-SORT  
-  <span style="color:#a889c9;">(Robust ReID-aware tracking framework)</span>
+  (Robust ReID-aware tracking framework)
 
 - <mark><strong>ByteTrack</strong></mark>: https://github.com/FoundationVision/ByteTrack  
-  <span style="color:#a889c9;">(High/low confidence detection association strategy)</span>
-
-<p>
-  <span style="color:#c97b9b;">
-    We gratefully thank the authors of these works for releasing their code and datasets, 
-    which significantly facilitate research on multi-object tracking and sports analytics.
-  </span>
-</p>
+  (High/low confidence detection association strategy)
 
 We gratefully thank the authors of these works for releasing their code and datasets, which significantly facilitate research on multi-object tracking and sports analytics.
 
@@ -334,6 +311,3 @@ save_image: False
 * Use absolute paths in DIRS_TXT for stability
 * Ensure weights paths are correct before running
 * `public_tracking=True` will ignore detector weights
-
-
-
