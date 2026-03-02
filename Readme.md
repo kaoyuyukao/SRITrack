@@ -37,7 +37,7 @@ including basketball, football, and volleyball, to illustrate the robustness
 of SRITrack.
 
 ### 🏀 Basketball Scenario
-[![Basketball Demo](figs/basketball.png)](https://vimeo.com/1169477378)
+[![Basketball Demo](figs/basketball.png)](https://vimeo.com/1169483694)
 
 ### ⚽ Football Scenario
 [![Football Demo](figs/football.png)](https://vimeo.com/1169478366)
@@ -332,6 +332,7 @@ save_image: False
 * Use absolute paths in DIRS_TXT for stability
 * Ensure weights paths are correct before running
 * `public_tracking=True` will ignore detector weights
+
 
 
 
