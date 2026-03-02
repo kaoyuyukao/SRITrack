@@ -1,4 +1,4 @@
-# SRITrack (Anonymous Submission)
+# SRITrack
 Status: Under Review  
 Repository Release Date: 2026-03-01
 
@@ -315,6 +315,7 @@ save_image: False
 * Use absolute paths in DIRS_TXT for stability
 * Ensure weights paths are correct before running
 * `public_tracking=True` will ignore detector weights
+
 
 
 
