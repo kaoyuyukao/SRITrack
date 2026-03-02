@@ -30,6 +30,23 @@ SRITrack is built upon and inspired by several pioneering works in multi-object 
 
 We gratefully thank the authors of these works for releasing their code and datasets, which significantly facilitate research on multi-object tracking and sports analytics.
 
+## 🎬 Demo Videos
+
+We provide qualitative tracking demonstrations on multiple sports scenarios, 
+including basketball, football, and volleyball, to illustrate the robustness 
+of SRITrack.
+
+### 🏀 Basketball Scenario
+[![Basketball Demo](figs/basketball.png)](https://vimeo.com/1169478366)
+
+### ⚽ Football Scenario
+[![Football Demo](figs/football.png)](https://vimeo.com/1169477438)
+
+### 🏐 Volleyball Scenario
+[![Volleyball Demo](figs/volleyball.png)](https://vimeo.com/1169477378)
+
+> Click the images to watch full-resolution demo videos on Vimeo.
+
 ---
 
 ## 2. Project Structure (Recommended)
@@ -315,6 +332,7 @@ save_image: False
 * Use absolute paths in DIRS_TXT for stability
 * Ensure weights paths are correct before running
 * `public_tracking=True` will ignore detector weights
+
 
 
 
